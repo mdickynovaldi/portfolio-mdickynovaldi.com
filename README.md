@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# 🙂 M Dicky Novaldi - Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my online portfolio! Here, you will explore a collection of projects and achievements that I have passionately worked on. Thank you for visiting!
 
-Currently, two official plugins are available:
+## 👋 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website serves as my personal portfolio, designed to showcase my work and accomplishments in:
 
-## Expanding the ESLint configuration
+1. Web Design
+2. Software Development
+3. Augmented Reality
+4. Virtual Reality
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You will also find information about my background, skills, and various projects I have completed.
 
-- Configure the top-level `parserOptions` property like this:
+## 🧩 Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Home:** A snapshot of my latest projects and achievements.
+- **About:** Details about my background, skills, and professional journey.
+- **Portfolio:** A curated list of my projects, complete with descriptions, technologies used, and demo links.
+- **Contact:** Ways to reach out to me via email or social media.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 💻 Technologies Used
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This website is crafted using the following technologies:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **HTML5** - For the foundational structure
+- **CSS3** - For styling and layout
+- **React** - A JavaScript library for building user interfaces
+- **TypeScript** - A superset of JavaScript that adds static types
+- **Vite** - A fast build tool and development server for modern web projects
+
+**_More features will be added over time_**
+
+## 📱 Get in Touch
+
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/mochdickynovaldi).
