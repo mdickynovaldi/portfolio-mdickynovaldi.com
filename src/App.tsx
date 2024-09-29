@@ -1,35 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Hammer, HardHat } from "lucide-react";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main>
+      <div className="min-h-screen w-screen flex items-center justify-center bg-gray-100">
+        <div className="text-center space-y-6 p-8 bg-white rounded-lg shadow-xl max-w-md w-full">
+          <div className="flex justify-center space-x-4">
+            <Hammer className="w-12 h-12 text-yellow-500" />
+            <HardHat className="w-12 h-12 text-yellow-500" />
+          </div>
+          <h1 className="text-4xl font-bold text-gray-800">
+            Under Construction
+          </h1>
+          <p className="text-xl text-gray-600">
+            We're working hard to bring you something amazing. Please check back
+            soon!
+          </p>
+          <div className="w-full bg-gray-200 rounded-full h-2.5">
+            <div className="bg-yellow-500 h-2.5 rounded-full w-1/2"></div>
+          </div>
+          <p className="text-sm text-gray-500">Expected completion: Soon™</p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </main>
+  );
 }
 
-export default App
+export default App;
